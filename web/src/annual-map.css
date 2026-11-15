@@ -1,0 +1,15 @@
+.annual-map{margin-top:24px;padding-top:24px;border-top:1px solid #30434a}
+.annual-map-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.annual-map h3{margin:8px 0;font-size:23px;color:#ece8dc}
+.annual-map-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.annual-map-controls label{display:flex;align-items:center;gap:8px;font-size:12px;color:#b7c4c4}
+.annual-map select{padding:8px;background:#172c35;color:#eee8da;border:1px solid #486068;border-radius:5px}
+.annual-map canvas{display:block;width:100%;height:auto;border:1px solid #354e57;border-radius:8px;cursor:crosshair;margin-top:15px}
+.annual-map-legend{display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:10px;color:#aebebc;margin:12px 0}
+.annual-map-legend i{width:110px;height:8px;background:linear-gradient(90deg,#724511,#cf7030,#ffcc89);border-radius:3px}
+.annual-map-inspection{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:14px;background:#152a32;border-radius:6px;color:#c5ceca;font-size:12px;min-height:55px}
+.annual-map details{margin-top:14px;font-size:12px;color:#b9c9c5}
+.annual-map summary{cursor:pointer;padding:8px 0}
+.annual-map-cell-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;padding:12px 0}
+.annual-map :focus-visible{outline:2px solid #f89965;outline-offset:4px}
+@media(max-width:600px){.annual-map h3{font-size:20px}.annual-map-controls{width:100%}.annual-map-inspection{align-items:flex-start;flex-direction:column}}

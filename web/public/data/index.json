@@ -1,0 +1,51 @@
+{
+  "label": "REAL FIRMS DATA",
+  "regions": [
+    {
+      "id": "Indonesia",
+      "name": "Indonesia",
+      "file": "Indonesia.json"
+    },
+    {
+      "id": "Malaysia",
+      "name": "Malaysia",
+      "file": "Malaysia.json"
+    },
+    {
+      "id": "Australia",
+      "name": "Australia",
+      "file": "Australia.json"
+    },
+    {
+      "id": "Brazil",
+      "name": "Brazil",
+      "file": "Brazil.json"
+    },
+    {
+      "id": "Egypt",
+      "name": "Egypt",
+      "file": "Egypt.json"
+    },
+    {
+      "id": "United_States",
+      "name": "United States",
+      "file": "United_States.json"
+    }
+  ],
+  "generated_at": "2026-11-15T05:34:42.968814+00:00",
+  "limitations": [
+    "Hotspots are detections, not independent fires or burned area.",
+    "Cloud and overpass coverage are not measured. Missing observations are not zero fire activity.",
+    "Historical critical periods are not forecasts. Calendar bins start January 1, not ISO weeks.",
+    "The raw baseline switches instruments; it is a constructed comparison."
+  ],
+  "phase": "prepared-count pipeline",
+  "baseline_commit": "841998b",
+  "model_scopes": {
+    "firelert-sea-v1": [
+      "Indonesia",
+      "Malaysia"
+    ],
+    "seven-country-v1": "Retained five countries use their original fitted model; no refit implied."
+  }
+}

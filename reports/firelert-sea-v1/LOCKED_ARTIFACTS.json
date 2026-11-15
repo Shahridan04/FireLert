@@ -1,0 +1,8 @@
+{
+  "note": "Hashes bind saved choices and results; this operation does not run model selection or evaluation.",
+  "sha256": {
+    "selection_lock.json": "b05225919ea7e143ccc972881d92687e6077e5380413b619f1727e10c67ebff1",
+    "harmonization_model.json": "d211d76cc1f182afec4cfe812fa0b789b993c59d66269a555b84e26720f30c4e",
+    "harmonization_eval.csv": "14966408894e02db383a10d72e237da88c1602036c99ab71044439c71d0783c9"
+  }
+}

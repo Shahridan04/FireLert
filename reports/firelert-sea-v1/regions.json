@@ -1,0 +1,28 @@
+{
+  "phase": "prepared-count pipeline",
+  "archive_manifest_fingerprint": "b701fd7b9518cc2aac6abbe3c499cd696dd7f5a47643c1576e2b6aabaf06457f",
+  "scope": "All cleaned archived detections, including boundary/partial years; not a display-year fire total",
+  "regions": {
+    "Indonesia": {
+      "cleaned_detections": 4722599,
+      "occupied_cells_all_types": 3370,
+      "occupied_cells_vegetation_all_streams": 3202,
+      "type_counts": {
+        "0": 4482507,
+        "1": 57020,
+        "2": 165805,
+        "3": 17267
+      }
+    },
+    "Malaysia": {
+      "cleaned_detections": 316171,
+      "occupied_cells_all_types": 537,
+      "occupied_cells_vegetation_all_streams": 536,
+      "type_counts": {
+        "0": 288988,
+        "2": 26706,
+        "3": 477
+      }
+    }
+  }
+}

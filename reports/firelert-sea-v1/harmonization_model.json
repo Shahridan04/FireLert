@@ -1,0 +1,66 @@
+{
+  "phase": "prepared-count evaluation",
+  "fit_years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017
+  ],
+  "validation_years": [
+    2018,
+    2019
+  ],
+  "test_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "ratios": {
+    "B1": 0.12868019834653138,
+    "M1": {
+      "Indonesia|D:high": 1.3187509040728127,
+      "Indonesia|D:low": 0.04067491674624915,
+      "Indonesia|D:medium": 0.4160739333612033,
+      "Indonesia|N:high": 1.5269930278510704,
+      "Indonesia|N:low": 0.018981004323161584,
+      "Indonesia|N:medium": 0.5708838300906487,
+      "Malaysia|D:high": 1.2035964592859474,
+      "Malaysia|D:low": 0.06147587992866068,
+      "Malaysia|D:medium": 0.501795816488375,
+      "Malaysia|N:high": 0.8108377763645568,
+      "Malaysia|N:low": 0.021457477985316532,
+      "Malaysia|N:medium": 0.808911718179777
+    }
+  },
+  "selection": {
+    "Indonesia": {
+      "selected": "B1",
+      "validation_daily_mae": {
+        "B1": 30.503149625224214,
+        "M1": 32.495268469698345
+      }
+    },
+    "Malaysia": {
+      "selected": "M1",
+      "validation_daily_mae": {
+        "B1": 2.9865864390318526,
+        "M1": 2.9719992173927103
+      }
+    }
+  },
+  "archive_files": 78,
+  "archive_manifest_fingerprint": "b701fd7b9518cc2aac6abbe3c499cd696dd7f5a47643c1576e2b6aabaf06457f",
+  "seconds": 0.5,
+  "peak_rss_bytes": 354607104,
+  "policy": "Country selection uses validation daily MAE only; the test split is reported without changing the selection rule.",
+  "model_revision": "firelert-sea-v1",
+  "calibration_countries": [
+    "Indonesia",
+    "Malaysia"
+  ],
+  "scope_note": "Indonesia/Malaysia only; not the retained five-country model.",
+  "rhythm_note": "Weekly-rest-day inference not run; no hypothesis or rest-day assignment assumed."
+}
