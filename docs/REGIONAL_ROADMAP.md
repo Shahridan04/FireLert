@@ -1,6 +1,6 @@
 # Regional history integrated
 
-Indonesia and Malaysia now appear in the existing 2003?2024 calendar, harmonized/raw comparisons, seasonal summaries, anomalies, twelve selected-cell records, CSV export and calibrated globe. Nepal and Bangladesh remain excluded. Other countries retain their prior scientific model.
+Indonesia and Malaysia now appear in the existing 2003?2024 calendar, harmonized/raw comparisons, seasonal summaries, anomalies, twelve selected-cell records, CSV export and calibrated globe. 
 
 78 annual archives were verified and 5,038,770 observations retained during preparation. All 1,462,692 payload comparisons against processed data passed. National performance does not imply cell accuracy; reported bootstrap bands omit total observation uncertainty.
 
