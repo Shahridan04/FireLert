@@ -19,7 +19,7 @@ export default function ComparisonChart({rows,mode,label}:{rows:Daily[];mode:'ra
     const fields=['month','raw_sensor_switch_detections','aqua_equivalent_detections','observed_aqua_detections','raw_days','harmonized_days','aqua_days','data_label'];
     const quote=(v:unknown)=>`"${String(v??'').replaceAll('"','""')}"`;
     const values=points.map(p=>[p.date,p.raw,p.harmonized,p.aqua,p.rawDays,p.harmonizedDays,p.aquaDays,label].map(quote).join(','));
-    saveFile('FIRETRACE_monthly_comparison.csv','\uFEFF'+[fields.join(','),...values].join('\r\n'),'text/csv;charset=utf-8');
+    saveFile('FireLert_monthly_comparison.csv','\uFEFF'+[fields.join(','),...values].join('\r\n'),'text/csv;charset=utf-8');
   };
   const W=850,H=230,L=55,R=15,T=22,B=33;
   const series:Series[]=referenceOnly?['harmonized','aqua']:['raw','harmonized','aqua'];
